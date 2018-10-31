@@ -1,0 +1,72 @@
+body {
+background-color: #ebebeb;
+font-family : Montserrat, "Open sans";
+}
+
+h1 {
+color : #dd5555;
+
+}
+
+p{
+  text-align: justify;
+  color :grey;
+  line-height: 30px;
+}
+
+img{
+  width :160px;
+}
+
+h2{
+  color : #7d7d7d;
+}
+
+strong {
+  color : #7d7d7d;
+}
+
+button {
+  background-color: #dd5555;
+  border : none;
+  border-radius : 2px;
+  font-size: 16px;
+  color : white;
+  padding: 10px;
+  color : white;
+}
+
+a {
+  text-decoration: none;
+}
+.firstpart {
+  background-color: white;
+  width : 50%;
+  box-shadow: 1px 1px 2px 1px grey;
+  text-align: center;
+  padding: 20px;
+}
+.firstpart img {
+  /*clip-path: circle(40%);*/
+  border-radius: 50% ;
+  border : 5px solid silver;
+  width :150px;
+}
+
+.rs {
+  background-color: white;
+  width : 50%;
+  box-shadow: 1px 1px 2px 1px grey;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.favmovies {
+  background-color: white;
+  width : 50%;
+  box-shadow: 1px 1px 2px 1px grey;
+  text-align: center;
+  padding: 20px;
+
+}
