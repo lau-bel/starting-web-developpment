@@ -29,7 +29,7 @@ strong {
 button {
   background-color: #dd5555;
   border : none;
-  border-radius : 2px;
+  border-radius : 4px;
   font-size: 16px;
   color : white;
   padding: 10px;
@@ -41,10 +41,12 @@ a {
 }
 .firstpart {
   background-color: white;
-  width : 50%;
-  box-shadow: 1px 1px 2px 1px grey;
+  width : 45%;
+  box-shadow: 0 1px 1px 0 grey;
   text-align: center;
   padding: 20px;
+  margin : 20px auto;
+  border-radius: 5px;
 }
 .firstpart img {
   /*clip-path: circle(40%);*/
@@ -55,18 +57,53 @@ a {
 
 .rs {
   background-color: white;
-  width : 50%;
-  box-shadow: 1px 1px 2px 1px grey;
+  width : 45%;
+  box-shadow: 0 1px 1px 0 grey;
   text-align: center;
-  padding: 20px;
+  padding: 10px 20px;
+  margin: 20px auto;
+  color : #cccccc;
+  border-radius: 5px;
 
+}
+.rs ul {
+  margin-right: 30px;
+}
+.rs li {
+  display : inline-block;
+  margin: 40px ;
+  color : #cccccc;
+
+}
+.rs p {
+  color : #cccccc;
+}
+.rs a {
+  text-decoration: none;
+  color : #cccccc;
+  font-size: 30px;
 }
 
 .favmovies {
   background-color: white;
-  width : 50%;
-  box-shadow: 1px 1px 2px 1px grey;
+  width : 45%;
+  box-shadow: 0 1px 1px 0 grey;
   text-align: center;
   padding: 20px;
+  margin : 20px auto;
+  border-radius: 5px;
 
+
+}
+.favmovies img {
+
+  width: 130px;
+}
+
+table {
+  border-spacing: 0px 30px;
+}
+
+.favmovies td {
+  padding: 20px;
 }
